@@ -1,0 +1,78 @@
+DEBUG 2019-08-21 00:59:42,669 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-21 00:59:42,897 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-21 00:59:42,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ReactTest.Web.Host.Startup.ReactTestWebHostModule, ReactTest.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ReactTest.ReactTestWebCoreModule, ReactTest.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ReactTest.ReactTestApplicationModule, ReactTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ReactTest.ReactTestCoreModule, ReactTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ReactTest.EntityFrameworkCore.ReactTestEntityFrameworkModule, ReactTest.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:42,953 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-21 00:59:43,163 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-21 00:59:43,163 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-21 00:59:43,163 [1    ] o.Configuration.LanguageManagementConfig - Converted ReactTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-21 00:59:43,163 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-21 00:59:43,896 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ReactTest.EntityFrameworkCore.ReactTestDbContext, ReactTest.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-21 00:59:45,807 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-21 00:59:45,900 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-21 00:59:45,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-21 00:59:45,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ReactTest
+DEBUG 2019-08-21 00:59:45,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-21 00:59:46,363 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-08-21 00:59:46,610 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-08-21 00:59:46,721 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2019-08-21 00:59:46,721 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-21 00:59:46,735 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Users.Dto.CreateUserDto
+DEBUG 2019-08-21 00:59:46,736 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Users.Dto.UserDto
+DEBUG 2019-08-21 00:59:46,736 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-21 00:59:46,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-21 00:59:46,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.Roles.Dto.PermissionDto
+DEBUG 2019-08-21 00:59:46,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-21 00:59:46,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ReactTest.MultiTenancy.Dto.TenantDto
+INFO  2019-08-21 00:59:58,649 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-21 00:59:58,649 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-08-21 00:59:58,836 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.0452ms 200 
+INFO  2019-08-21 00:59:59,294 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host)'
+INFO  2019-08-21 01:00:04,986 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host)
+INFO  2019-08-21 01:00:07,862 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host) - Validation state: Valid
+INFO  2019-08-21 01:00:07,873 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.2686ms.
+INFO  2019-08-21 01:00:08,095 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-21 01:00:08,153 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host) in 3145.0709ms
+INFO  2019-08-21 01:00:08,166 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReactTest.Web.Host.Controllers.HomeController.Index (ReactTest.Web.Host)'
+INFO  2019-08-21 01:00:08,247 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-21 01:00:08,265 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9627.4875ms 302 
+INFO  2019-08-21 01:00:08,995 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 743.3909ms 200 text/html
+INFO  2019-08-21 01:00:09,081 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-08-21 01:00:09,095 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-08-21 01:00:09,255 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\raj24\Downloads\ReactTest\4.7.1\aspnet-core\src\ReactTest.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-08-21 01:00:09,257 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\raj24\Downloads\ReactTest\4.7.1\aspnet-core\src\ReactTest.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-08-21 01:00:09,270 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.6063ms 200 application/javascript
+INFO  2019-08-21 01:00:09,274 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192.3445ms 200 application/javascript
+INFO  2019-08-21 01:00:10,043 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-21 01:00:10,747 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 707.1476ms 200 application/json;charset=utf-8
+INFO  2019-08-21 01:02:13,871 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2019-08-21 01:02:13,895 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReactTest.Users.UserAppService.GetRoles (ReactTest.Application)'
+INFO  2019-08-21 01:02:13,938 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action ReactTest.Users.UserAppService.GetRoles (ReactTest.Application)
+WARN  2019-08-21 01:02:14,725 [14   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-08-21 01:02:14,740 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-08-21 01:02:14,809 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-21 01:02:14,882 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ReactTest.Users.UserAppService.GetRoles (ReactTest.Application) in 936.8724ms
+INFO  2019-08-21 01:02:14,892 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReactTest.Users.UserAppService.GetRoles (ReactTest.Application)'
+INFO  2019-08-21 01:02:14,896 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1024.2081ms 401 application/json; charset=utf-8
